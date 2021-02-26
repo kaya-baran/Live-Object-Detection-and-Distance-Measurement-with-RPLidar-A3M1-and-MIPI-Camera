@@ -17,6 +17,7 @@ You can find how to install jetson.inference and jetson.utils [here](https://git
 ```bash
 python3 detectingObjectsAndMeasuringDistance.py
 ```
+
 ## Functions
 In this project, we have 2 thread objects running together, which are camera input-output and on_click listener.
 
