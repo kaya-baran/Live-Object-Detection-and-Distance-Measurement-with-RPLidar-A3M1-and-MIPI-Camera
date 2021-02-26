@@ -13,6 +13,7 @@ pip3 install argparse
 pip3 install numpy
 ```
 You can find how to install jetson.inference and jetson.utils [here](https://github.com/dusty-nv/jetson-inference).
+
 I also added these configurations of OpenCV:
 
 ```bash
