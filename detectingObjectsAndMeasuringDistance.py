@@ -14,7 +14,7 @@ def on_click(x, y, button, pressed):
         coordY = y
 
         xDist_toCenter=coordX-705
-        newX_Angle = 272.5 + 180 / np.pi * np.arctan(xDist_toCenter/(640*np.sqrt(3)))
+        newX_Angle = 270 + 180 / np.pi * np.arctan(xDist_toCenter/(640*np.sqrt(3)))
 
         actual_distance = 0
         scanned_angle = 0
@@ -23,7 +23,7 @@ def on_click(x, y, button, pressed):
             if (scan.quality!=0):
                 actual_distance= scan.distance/1000
                 scanned_angle = (((scan.angle*-1) + 360) * np.pi/180)
-                if((scanned_angle < np.pi*252/180) and (scanned_angle > np.pi*302/180)):
+                if((scanned_angle < np.pi*240/180) and (scanned_angle > np.pi*300/180)):
                     if newX_Angle == scanned_angle:
                         print(actual_distance)
                     
