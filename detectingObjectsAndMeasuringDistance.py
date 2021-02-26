@@ -60,7 +60,6 @@ parser.add_argument("--threshold", type=float, default=0.5, help="minimum detect
 
 is_headless = ["--headless"] if sys.argv[0].find('console.py') != -1 else [""]
 
-
 try:
     opt = parser.parse_known_args()[0]
 except:
