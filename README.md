@@ -36,3 +36,5 @@ You can see that there is offset in the loop for detections, which is because of
 ![Here](Images/offset.png)
 
 Here, you can see where the video is located in my screen.
+
+
