@@ -17,6 +17,7 @@ You can find how to install jetson.inference and jetson.utils [here](https://git
 ```bash
 python3 detectingObjectsAndMeasuringDistance.py
 ```
+In this project, my aim was integrating RPLidar and MIPI Camera. MIPI Camera has a 60° view angle and I optimized it with RPLidar by using some mathematical expressions. In my experiment, the center of the camera was at 270° of the RPLidar. After optimization is completed, this project returns the type of object, distance of the object and the pixel coordinates of screen where the mouse is clicked. To stop the RPLidar after the demonstration, right-click will work.
 
 ## Functions
 In this project, we have 2 thread objects running together, which are camera input-output and on_click listener.
