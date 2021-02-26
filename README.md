@@ -24,7 +24,7 @@ In this project, we have 2 thread objects running together, which are camera inp
 The function on_click enables us to select any point on the screen with mouse click.
 
 ### Camera Input-Output
-Since I use Gstreamer, I can get camera input and output with:
+Since I use Gstreamer, I can get camera input and output as:
 ```python
 input = jetson.utils.videoSource(opt.input_URI, argv=sys.argv)
 output = jetson.utils.videoOutput(opt.output_URI, argv=sys.argv+is_headless)
